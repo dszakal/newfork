@@ -4,6 +4,7 @@ This is practically an automation of the solution suggested as a top answer here
 
 usage: 
 ```bash
+    ### first create via the web ui of github the something/newfork repository as an empty one, then:
     cd path/to/my_dev_projects_folder/
     git clone git@github.com:dszakal/newfork.git
     chmod +x ./newfork/newfork.sh
