@@ -12,7 +12,7 @@ then
 	exit 1;
 fi
 
-if [[ -f $NEWREPONAME]];
+if [[ -f $NEWREPONAME ]];
 then
 	echo "folder exists";
 	exit 1;
